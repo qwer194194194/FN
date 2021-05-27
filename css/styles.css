@@ -41,6 +41,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin:auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
