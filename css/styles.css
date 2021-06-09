@@ -3900,7 +3900,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   white-space: nowrap;
 }
 .navbar-nav {
@@ -10605,7 +10605,7 @@ blockquote {
   text-transform: uppercase;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   font-weight: 800;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
