@@ -60,7 +60,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #fafafa;
+background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -10554,7 +10556,7 @@ body {
 }
 
 hr {
-  background-color: #dee2e6;
+  background-color: #5d5d5d;
   opacity: 1;
 }
 
