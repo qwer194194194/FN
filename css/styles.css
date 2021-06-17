@@ -36,11 +36,8 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
-#mouse{
-    width:300px;
-    height:300px;
-    border:1px solid black;
-    cursor:url(pointer.png);
+*, body, a, a:hover {cursor: url(https://i.imgur.com/idcrsxa.png), auto;}
+a:hover, {cursor: url(https://i.imgur.com/gnKYuI2.png), auto;}
 }
   
 *,
