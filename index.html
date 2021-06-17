@@ -15,9 +15,14 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 		<script src="queryloader2.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <!-- Navigation-->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 		<script type="text/javascript">
 			window.addEventListener('DOMContentLoaded', function() {
 				new QueryLoader2(document.querySelector("body"), {
@@ -49,7 +54,15 @@
         <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7 ">
+                    <div class="col-md-10 col-lg-8 col-xl-7 " 
+						 data-aos="zoom-in-up"
+						 data-aos-offset="200"
+						 data-aos-delay="50"
+						 data-aos-duration="1000"
+						 data-aos-easing="ease-in-out"
+    					 data-aos-mirror="true"
+						 data-aos-once="false"
+						 data-aos-anchor-placement="top-bottom">
                         <div class="site-heading">
                             <h1>揮灑青春的秘密基地!</h1>
                             <span class="subheading">一起搭捷運來去Live House玩吧!</span>
