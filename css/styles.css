@@ -39,7 +39,75 @@
 *, body, a, a:hover {cursor: url(https://i.imgur.com/idcrsxa.png), auto;}
 a:hover, {cursor: url(https://i.imgur.com/gnKYuI2.png), auto;}
 }
+body {
+  margin:0;
+  padding:0;
+  overflow:hidden;
+ 
+  background-color: black;
+  font-family: Signika Negative, Asap, sans-serif;
+  color: #ccc;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 20px;
+  text-align: center;
+}
+svg {
   
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.ball {
+  width: 40px;
+  height: 40px; 
+  margin: 50px 0 30px 0;
+  border-radius: 50%;
+  background-color: orange;
+  display: inline-block;
+}
+.group {
+  
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin-right: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+path {
+  stroke-width: 3px;
+  stroke: white;
+  fill: none;
+  opacity: 0.7;
+}
+.box {
+  width: 150px;
+  height:90px;
+  background-color: #90E500;
+  color: black;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 90px;
+  position: relative;
+  transform: translate3d(0,0,0);
+  user-select: none;
+  -webkit-user-select: none;
+}
+h1, strong {
+  color: white;
+  font-weight: 400;
+}
+a:link, a:visited {
+  color:#90E500;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}  
 *,
 *::before,
 *::after {
