@@ -10680,6 +10680,9 @@ header.masthead {
   background-color: #6c757d;
   background-size: cover;
   background-attachment: scroll;
+  height: auto;
+  max-width: 100%;
+  
 }
 header.masthead:before {
   content: "";
@@ -10715,7 +10718,7 @@ header.masthead .site-heading .subheading {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .post-heading h1, header.masthead .post-heading .h1 {
-  font-size: 2.25rem;
+  font-size: 9.5vmin;
 }
 header.masthead .post-heading .meta,
 header.masthead .post-heading .subheading {
@@ -10798,4 +10801,9 @@ header.masthead .site-heading .h1 {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
+}
+img
+{
+height: auto;
+max-width: 100%;
 }
