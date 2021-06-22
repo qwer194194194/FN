@@ -5647,6 +5647,7 @@ textarea.form-control-lg {
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
+  background: rgba(0, 0, 0, 0.55);
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -10927,3 +10928,4 @@ header.masthead .site-heading .h1 {
   text-align: center;
   margin: 0px auto;
 }
+
