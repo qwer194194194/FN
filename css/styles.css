@@ -10906,10 +10906,11 @@ header.masthead .site-heading .h1 {
   padding: 18px;
   width: 60%;
   text-align: middle;
-  margin: 0px 20%;
+  margin: auto 20%;
   border: none;
   outline: none;
   transition: 0.4s;
+  font-weight: 800;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -10920,7 +10921,7 @@ header.masthead .site-heading .h1 {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #e9e8e9;
   width: 60%;
   max-height: 0;
   overflow: hidden;
@@ -10929,3 +10930,96 @@ header.masthead .site-heading .h1 {
   margin: 0px auto;
 }
 
+.btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 106px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 0.6}
+
+.btn1 {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 16px 106px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  font-weight: 800;
+  letter-spacing: 0.0625em;
+}
+
+.btn1:hover {opacity: 0.6}
+
+.btn2 {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 16px 106px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  font-weight: 800;
+  letter-spacing: 0.0625em;
+}
+
+.btn2:hover {opacity: 0.6}
+
+.btn3 {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 106px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  font-weight: 800;
+  letter-spacing: 0.0625em;
+}
+
+.btn3:hover {opacity: 0.6}
+
+.btn4 {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  font-weight: 800;
+  letter-spacing: 0.0625em;
+}
+
+.btn4:hover {opacity: 0.6}
+
+.btn5 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 60px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  font-weight: 800;
+  letter-spacing: 0.0625em;
+}
+
+.btn5:hover {opacity: 0.6}
